@@ -21,3 +21,7 @@ export const register = async (req, res) => {
   console.log(result);
   res.end();
 };
+
+export const check = (req, res) => {
+  res.end();
+};
